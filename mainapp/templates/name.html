@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form class="get_name" method="post">
+    	{% csrf_token %}
+    	{{ form }}
+    	<input type="submit" value="Submit">
+		</form>
+</body>
+</html>

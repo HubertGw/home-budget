@@ -1,0 +1,339 @@
+body{
+    font-family: sans-serif;
+    background-image: url("images/trees.png");
+	color: #212121;
+}
+h1{
+	font-size: 30px;
+    margin-bottom: 4vw;
+	text-align: center;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: #85BB65;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+#menu
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: #ffffff;
+	padding: 10px;
+
+}
+
+#topbar
+{
+	background-color: #85BB65;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 180px;
+}
+
+#topbarL
+{
+	float:left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#sidebar
+{
+	float: left;
+	width: 148px;
+	min-height: 620px;
+	padding:20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 920px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: justify;
+}
+
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	background: #1b1b1b;
+}
+
+.option
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.option:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.linkmenu:active
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.optionL
+{
+	font-size:18px;
+	height:25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.optionL:hover
+{
+	background-color: #f36742;
+	color: white;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+}
+#topbarL > img
+{
+	height: 140px;
+}
+#contentimage
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	float:left;
+	width:50%;
+
+}
+#father:after
+{
+	content:'';
+	display:block;
+	clear:both;
+}
+#text
+{
+	float:left;
+	width:50%;
+}
+
+#contentimage > img
+{
+	height: 280px;
+	padding: 25px;
+	margin-top: -65px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linkmenu{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.linkButton{
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.przycisk{
+	font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    padding: 20px;
+    border: solid 5px #85BB65;
+    background: honeydew;
+	width: 45vw;
+	text-align: center;
+	display: block;
+}
+.przycisk:hover{
+	font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 6vw;
+    padding: 20px;
+    border: solid 5px honeydew;
+    background: #85BB65;
+	text-align: center;
+}
+#buttons{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+	padding-top: 6vw;
+}
+.kategoria {
+	font-size: 30px;
+    padding: 10px;
+    border: solid 3px rgb(133, 187, 101);
+    background: honeydew;
+    height: auto;
+    width: 21vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+	text-decoration: none;
+}
+.kategoria:hover {
+	font-size: 30px;
+    padding: 10px;
+    border: solid 3px honeydew;
+    background: rgb(133, 187, 101);
+    height: auto;
+    width: 21vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#content > form > p > label{
+	margin-left: 15vw;
+    font-size: 2vw;
+}
+#id_amount{
+	font-size: 25px;
+    color: rgb(133, 187, 101);
+    background: honeydew;
+    text-align: center;
+}
+#id_expense_category{
+	font-size: 25px;
+    color: rgb(133, 187, 101);
+    background: honeydew;
+    text-align: center;
+}
+#content > form > input[type=submit]:nth-child(4){
+	margin-top: 2vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 30px;
+    padding: 10px;
+    border: solid 3px rgb(133, 187, 101);
+    background: honeydew;
+    height: auto;
+    width: 21vw;
+	text-decoration: none;
+}
+#content > form > input[type=submit]:hover {
+	font-size: 30px;
+    padding: 10px;
+    border: solid 3px honeydew;
+    background: rgb(133, 187, 101);
+    height: auto;
+    width: 21vw;
+	color: white;
+	cursor: pointer;
+}
+#id_income_category{
+	font-size: 25px;
+    color: rgb(133, 187, 101);
+    background: honeydew;
+    text-align: center;
+}
+#content > form > ul > li{
+	color: red;
+}
+#content > form > input[type=submit]:nth-child(5){
+	margin-top: 2vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 30px;
+    padding: 10px;
+    border: solid 3px rgb(133, 187, 101);
+    background: honeydew;
+    height: auto;
+    width: 21vw;
+	text-decoration: none;
+}
+#content > form > input[type=submit]:nth-child(5):hover{
+	font-size: 30px;
+    padding: 10px;
+    border: solid 3px honeydew;
+    background: rgb(133, 187, 101);
+    height: auto;
+    width: 21vw;
+	color: white;
+	cursor: pointer;
+}
+td{
+	width: 30vw;
+    text-align: center;
+    font-size: 20px;
+    background: honeydew;
+}
+#content > table > tbody > tr > th{
+	font-size: 25px;
+    background: yellowgreen;
+}
+h2{
+	text-align: center;
+}
+
+.zestaw{
+	text-align: center;
+	font-size: 25px ;
+	color: green;
+}
